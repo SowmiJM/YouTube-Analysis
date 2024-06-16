@@ -1,0 +1,22 @@
+# Ignore environment variable files
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore other files that might contain sensitive information or large files
+config.json
+*.pem
+*.csv
+
+# Ignore directories containing compiled code or dependencies
+node_modules/
+vendor/
+
+# Ignore build output directories
+dist/
+build/
